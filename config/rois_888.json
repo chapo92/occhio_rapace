@@ -1,0 +1,56 @@
+{
+  "_comment": "ROI coordinates for 888 Poker 9-max layout at 1920x1080. Format: [x, y, width, height]. Calibrate with tools/tune_hero_stack_rois_interactive.py.",
+
+  "resolution": [1920, 1080],
+
+  "board_corners": [
+    [929, 519, 45, 65],
+    [1060, 520, 45, 65],
+    [1192, 522, 45, 65],
+    [1322, 523, 45, 65],
+    [1452, 523, 45, 65]
+  ],
+
+  "hero_corners": [
+    [1110, 610, 40, 55],
+    [1175, 610, 40, 55]
+  ],
+
+  "hero_stack": [1090, 670, 130, 28],
+
+  "blinds": {
+    "_comment": "OCR region where blinds text appears, e.g. '0.50/1.00'",
+    "roi": [820, 480, 200, 35]
+  },
+
+  "seats_9max": {
+    "_comment": "9 seat boxes for 9-max table. Each entry: [x, y, w, h]. seat index 0-based (seat 1 = index 0). Calibrate with the interactive tool.",
+    "name_rois": [
+      [874,  740, 120, 24],
+      [563,  680, 120, 24],
+      [307,  530, 120, 24],
+      [307,  335, 120, 24],
+      [563,  210, 120, 24],
+      [874,  170, 120, 24],
+      [1210, 210, 120, 24],
+      [1466, 335, 120, 24],
+      [1466, 530, 120, 24]
+    ],
+    "stack_rois": [
+      [874,  760, 120, 22],
+      [563,  700, 120, 22],
+      [307,  550, 120, 22],
+      [307,  355, 120, 22],
+      [563,  230, 120, 22],
+      [874,  190, 120, 22],
+      [1210, 230, 120, 22],
+      [1466, 355, 120, 22],
+      [1466, 550, 120, 22]
+    ]
+  },
+
+  "card_recognizer": {
+    "rank_threshold": 0.50,
+    "suit_threshold": 0.45
+  }
+}
