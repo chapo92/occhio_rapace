@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-03-22T18:16:02.030038",
+  "video": "pokere_1980.mp4",
+  "roi": [
+    710,
+    470,
+    500,
+    230
+  ],
+  "total_frames": 47438,
+  "analyzed_frames": 4744,
+  "cards_detected": 10321,
+  "hands_detected": 12,
+  "accuracy_score": 100.0,
+  "errors_count": 0,
+  "errors": []
+}

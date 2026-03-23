@@ -1,0 +1,10 @@
+{
+  "source_database": "database/poker_data.db",
+  "backup_dir": "D:/backups/",
+  "log_file": "D:/logs/backup.log",
+  "max_backups": 4,
+  "schedule": {
+    "daily_backup_time": "00:00"
+  },
+  "notes": "All backups go to HDD2 (D:/) for protection against HDD1 failure"
+}
